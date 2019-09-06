@@ -23,6 +23,8 @@ class MainActivity : AppCompatActivity() {
 
     private fun rollDice() {
 
+        // this is testing from windows
+
         val resultText : TextView = findViewById(R.id.result_text)
         val randomInt= Random.nextInt(100) + 1
         resultText.text = randomInt.toString()
